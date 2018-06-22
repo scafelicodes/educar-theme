@@ -444,7 +444,7 @@ h1 {
     float: left;
     min-width: 10rem;
     padding: .5rem 0;
-    margin: 0.5rem 0 0rem -1.2rem;
+    margin: 0rem 0rem 0rem -1.2rem;
     font-size: 1rem;
     color: #212529;
     text-align: left;
@@ -453,4 +453,60 @@ h1 {
     background-clip: padding-box;
     border: none;
     border-radius: 0;
+}
+
+
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.7rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f16334;
+}
+
+
+
+.post-preview {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f163348c;
+    margin-bottom: 30px;
+}
+
+.post-preview:last-child {
+    border-bottom: none;
+}
+
+.post-preview img {
+    border-radius: 3px;
+}
+
+
+.post-meta {
+    margin-bottom: 0px;
+    font-size: 12px;
+        font-weight: 600;
+    text-transform: uppercase;
+    color: #777;
+}
+
+
+.post-meta a {
+    color: #f16334;
 }

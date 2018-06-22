@@ -24,15 +24,15 @@
           Categorias
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Gestão Escolas</a>
-          <a class="dropdown-item" href="#">Marketing Educacional</a>
-          <a class="dropdown-item" href="#">Tecnologias Educacionais</a>
+          <a class="dropdown-item" href="<?php bloginfo( 'url' ); ?>/gestao-escolar">Gestão Escolas</a>
+          <a class="dropdown-item" href="<?php bloginfo( 'url' ); ?>/marketing-educacional">Marketing Educacional</a>
+          <a class="dropdown-item" href="<?php bloginfo( 'url' ); ?>/tecnologias-educacionais">Tecnologias Educacionais</a>
         </div>
       </li>
 
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Materiais Educativos</a>
+        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/materiais-educativos">Materiais Educativos</a>
       </li>
 
 
@@ -53,31 +53,44 @@
 			<!-- <h1 class="ultimas">últimas</h1> -->
                 <?php
                     $wp_query = new WP_Query();
-                    query_posts( array( 'post_type' => 'post', 'showposts' => 1, 'paged'=>$paged ));
+                    query_posts( array( 'post_type' => 'post', 'showposts' => 2, 'paged'=>$paged ));
                     if(have_posts()):
                     while ($wp_query -> have_posts()) : $wp_query -> the_post();
                 ?>
 
                 <div class="post-preview">
-                        
-                    <h2 class="post-title">
-                        <a href="<?php the_permalink();?>"><?php the_title(); ?></a>
-                    </h2>
+                  
 
-                    <p class="post-meta">por <b><?php the_author() ?></b> em <?php the_time('j \d\e F \d\e Y') ?></p>
+                  <div class="row">
+                    
+                    <div class="col-md-4">
+                      <?php the_post_thumbnail('singlelist'); ?>
+                    </div>
+
+                    <div class="col-md-8">
+                      <h3 class="post-title">
+                        <a href="<?php the_permalink();?>"><?php the_title(); ?></a>
+                    </h3>
+
+                    <p class="post-meta">Por <?php the_author_posts_link(); ?> em <?php the_time('j \d\e F \d\e Y') ?></p>
                                 
                     <h3 class="post-subtitle"><?php the_excerpt(); ?></h3>
+                    </div>
+                  
+                  </div>
+                        
+                    
                             
                     
                 </div>
-
-                <hr>
                 <?php endwhile; endif; ?>
                 
                 <!-- <ul class="pager">
                     <li class="previous"><?php next_posts_link('<span>Mais publicações</span>') ?></li>
                     <li class="next"><?php previous_posts_link('<span>Anteriores</span>') ?></li>
                 </ul> -->
+
+<div class="text-center">
 
                 <?php
 global $wp_query;
@@ -92,6 +105,7 @@ echo paginate_links( array(
 ) );
 ?>
 
+</div>
 
 		</div>
 

@@ -26,15 +26,15 @@
           Categorias
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Gestão Escolas</a>
-          <a class="dropdown-item" href="#">Marketing Educacional</a>
-          <a class="dropdown-item" href="#">Tecnologias Educacionais</a>
+          <a class="dropdown-item" href="<?php bloginfo( 'url' ); ?>/gestao-escolar">Gestão Escolas</a>
+          <a class="dropdown-item" href="<?php bloginfo( 'url' ); ?>/marketing-educacional">Marketing Educacional</a>
+          <a class="dropdown-item" href="<?php bloginfo( 'url' ); ?>/tecnologias-educacionais">Tecnologias Educacionais</a>
         </div>
       </li>
 
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Materiais Educativos</a>
+        <a class="nav-link" href="<?php bloginfo( 'url' ); ?>/materiais-educativos">Materiais Educativos</a>
       </li>
 
 
@@ -58,7 +58,7 @@
 <h1 class="title-post"><?php the_title() ?></h1>
 
 
-<span class="meta-post"><?php the_author_posts_link(); ?> em <?php the_time('j \d\e F \d\e Y') ?></span>
+<span class="meta-post">Por <?php the_author_posts_link(); ?> em <?php the_time('j \d\e F \d\e Y') ?></span>
 
 
 <?php the_content(); ?>
