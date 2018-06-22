@@ -35,8 +35,8 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="features-title text-center mb-80">
-                                <p>ganhe mais tempo e diminua os custos</p>
-                                <h2>terceirize o marketing da sua escola</h2>
+                                <p>Ganhe mais tempo e diminua os custos</p>
+                                <h2>Terceirize o marketing da sua escola</h2>
                             </div>
                         </div>
                     </div>
