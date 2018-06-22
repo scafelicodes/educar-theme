@@ -7,7 +7,6 @@
                        <div class="container">
                            <div class="row ">
                                <div class="col-xl-6 col-lg-7 d-flex align-items-center">
-
                                     <div class="slider-content">
                                         <span>somos especialistas em</span>
                                         <h1>Marketing <br>Educacional</h1>
@@ -36,8 +35,8 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="features-title text-center mb-80">
-                                <p>Ganhe mais tempo e diminua os custos</p>
-                                <h2>Terceirize o marketing da sua escola</h2>
+                                <p>ganhe mais tempo e diminua os custos</p>
+                                <h2>terceirize o marketing da sua escola</h2>
                             </div>
                         </div>
                     </div>

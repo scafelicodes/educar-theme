@@ -8,10 +8,7 @@
                                 <div class="footer-widget">
                                     <h3>Fale Conosco</h3>
                                     <ul class="footer-info">
-                                        
-                                        <li>A <b>Agência Educar</b> é uma agência de publicidade e marketing para escolas.</li>
-                                        <li> </li>
-                                        
+                                                                                
                                         <li><i class="far fa-envelope"></i> contato@agenciaeducar.com</li>
                                         <!-- <li>Itaboraí - Rio de Janeiro</li> -->
                                             
