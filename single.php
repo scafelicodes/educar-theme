@@ -26,7 +26,7 @@
           Categorias
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="<?php bloginfo( 'url' ); ?>/gestao-escolar">Gestão Escolas</a>
+          <a class="dropdown-item" href="<?php bloginfo( 'url' ); ?>/gestao-escolar">Gestão Escolar</a>
           <a class="dropdown-item" href="<?php bloginfo( 'url' ); ?>/marketing-educacional">Marketing Educacional</a>
           <a class="dropdown-item" href="<?php bloginfo( 'url' ); ?>/tecnologias-educacionais">Tecnologias Educacionais</a>
         </div>
