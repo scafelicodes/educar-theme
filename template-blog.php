@@ -53,7 +53,7 @@
 			<!-- <h1 class="ultimas">últimas</h1> -->
                 <?php
                     $wp_query = new WP_Query();
-                    query_posts( array( 'post_type' => 'post', 'showposts' => 2, 'paged'=>$paged ));
+                    query_posts( array( 'post_type' => 'post', 'showposts' => 5, 'paged'=>$paged ));
                     if(have_posts()):
                     while ($wp_query -> have_posts()) : $wp_query -> the_post();
                 ?>
