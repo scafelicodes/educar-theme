@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Poppins:400,600&display=swap');
+
+// variables
+
+$primary: #f16334;
+
+
+a {
+    color: $primary;
+
+    &:hover {
+        color: $primary;
+        filter: brightness(125%);
+        text-decoration: none;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #414149;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #777777;
+    margin-bottom: 15px;
+}
+
+
+
+section {
+
+    padding: 80px 0px;
+
+    .title-section {
+        text-align: center;
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            color: #a0a0a0;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 60px;
+        }
+    }
+}

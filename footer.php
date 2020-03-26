@@ -70,19 +70,9 @@
             
 
         <!-- All js here -->
-        <script src="<?php bloginfo('template_url') ?>/js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="<?php bloginfo('template_url') ?>/js/vendor/jquery-1.12.4.min.js"></script>
         <script src="<?php bloginfo('template_url') ?>/js/popper.min.js"></script>
         <script src="<?php bloginfo('template_url') ?>/js/bootstrap.min.js"></script>
-        <script src="<?php bloginfo('template_url') ?>/js/isotope.pkgd.min.js"></script>
-        <script src="<?php bloginfo('template_url') ?>/js/jquery.magnific-popup.min.js"></script>
-        <script src="<?php bloginfo('template_url') ?>/js/jquery.nice-select.min.js"></script>
-        <script src="<?php bloginfo('template_url') ?>/js/jquery.meanmenu.min.js"></script>
-        <script src="<?php bloginfo('template_url') ?>/js/jquery.counterup.min.js"></script>
-        <script src="<?php bloginfo('template_url') ?>/cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-        <script src="<?php bloginfo('template_url') ?>/js/slick.min.js"></script>
-        <script src="<?php bloginfo('template_url') ?>/js/plugins.js"></script>
-        <script src="<?php bloginfo('template_url') ?>/js/main.js"></script>
     </body>
 
 <?php wp_footer(); ?>
