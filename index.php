@@ -9,8 +9,8 @@
             <div class="col-xl-6 col-lg-7 d-flex align-items-center">
                 <div class="content">
                     <span>somos especialistas em</span>
-                    <h1>Marketing <br>Educacional</h1>
-                    <p>A <b>Educar</b> é uma agência de comunicação digital especializada em escolas e universidades!</p>
+                    <h1>Tecnologia <br>e Marketing</h1>
+                    <p>A <b>Educar</b> é uma agência de tecnologia e marketing educacional especializada na captação e retenção de alunos.</p>
                     <a href="<?php bloginfo( 'url' ); ?>/contato" class="btn">SOLICITE UMA AVALIAÇÃO GRATUITA</a>
                 </div>
             </div>
@@ -33,22 +33,22 @@
         </div>
 
         <div class="row">
-                                <div class="col-md-4">
-                                    <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/icons/divulgacao.png" alt="">
-                                    <h4 class="main-cl">Divulgação</h4>
-                                    <p>Mostramos o real potencial da sua instituição através da internet</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/icons/captacao.png" alt="">
-                                    <h4 class="main-cl">Captação</h4>
-                                    <p>Alimentamos o interesse de novos alunos com a ajuda do marketing digital</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/icons/fidelizacao.png" alt="">
-                                    <h4 class="main-cl">Fidelização</h4>
-                                    <p>Transformamos pais de alunos em fãs agregando valor à sua instituição</p>
-                                </div>
-                            </div>
+            <div class="col-md-4">
+                <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/icons/divulgacao.png" alt="">
+                <h4>Divulgação</h4>
+                <p>Mostramos o real potencial da sua instituição através da internet</p>
+            </div>
+            <div class="col-md-4">
+                <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/icons/captacao.png" alt="">
+                <h4>Captação</h4>
+                <p>Alimentamos o interesse de novos alunos com a ajuda do marketing digital</p>
+            </div>
+            <div class="col-md-4">
+                <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/icons/fidelizacao.png" alt="">
+                <h4>Fidelização</h4>
+                <p>Transformamos pais de alunos em fãs agregando valor à sua instituição</p>
+            </div>
+        </div>
 
 
     </div>

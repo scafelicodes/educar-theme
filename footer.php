@@ -55,13 +55,15 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="copyright-area pt-25 pb-25">
                     <div class="container">
                         <div class="copyright-text text-center ">
-                            <p>© 2018 Agência Educar - Publicidade e Marketing para Escolas</p>
+                            <p>© 2020 Agência Educar - Tecnologia e Marketing Educacional</p>
                         </div>
                     </div>
                 </div>
+
             </footer>
             <!-- footer end -->
         </div>
