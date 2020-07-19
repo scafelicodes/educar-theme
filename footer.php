@@ -70,11 +70,6 @@
         <!-- wrapper-box end -->
 
             
-
-        <!-- All js here -->
-        <script src="<?php bloginfo('template_url') ?>/js/vendor/jquery-1.12.4.min.js"></script>
-        <script src="<?php bloginfo('template_url') ?>/js/popper.min.js"></script>
-        <script src="<?php bloginfo('template_url') ?>/js/bootstrap.min.js"></script>
     </body>
 
 <?php wp_footer(); ?>

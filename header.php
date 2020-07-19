@@ -4,22 +4,15 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><?php if(is_home()) { echo bloginfo("name"); echo " - "; echo bloginfo("description"); } else { echo wp_title(" - ", false, right); } ?></title>
-
 
     <meta http-equiv="Lang" content="pt-br">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- All css here -->
-    <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/main.min.css">
     
-    <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/style.css">
-
     <?php wp_head(); ?>
+
 </head>
 
 <body>
