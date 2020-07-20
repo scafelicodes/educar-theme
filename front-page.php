@@ -1,22 +1,22 @@
 <?php get_header(); ?>
 
 
-<section>
+<section class="hero-home d-flex align-items-center">
+<div class="bg-overlay"></div>
 
     <div class="container">
-        <div class="row ">
+        <div class="row justify-content-md-center">
 
-            <div class="col-xl-6 col-lg-7 d-flex align-items-center">
-                <div class="content">
-                    <span>somos especialistas ema</span>
-                    <h1>Tecnologia <br>e Marketing</h1>
-                    <p>A <b>Educar</b> é uma agência de tecnologia e marketing educacional especializada na captação e retenção de alunos.</p>
-                    <a href="<?php bloginfo( 'url' ); ?>/contato" class="btn">SOLICITE UMA AVALIAÇÃO GRATUITA</a>
+            <div class="col-xl-6 col-lg-7">
+
+            
+                <div class="content text-center">
+
+                    <h1>Educar é o caminho para um futuro melhor</h1>
+
+                    <p>Mussum Ipsum, cacilds vidis litro abertis. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. </p>
+
                 </div>
-            </div>
-
-            <div class="col-xl-6 col-lg-5">
-                <img src="<?php bloginfo('template_url') ?>/img/slider/transparent-slide.png" alt="">                
             </div>
 
         </div>
@@ -27,26 +27,31 @@
 
 <section>
     <div class="container">
-        <div class="title-section">
-            <p>Ganhe mais tempo e diminua os custos</p>
-            <h1>Terceirize o marketing da sua escola</h1>
-        </div>
 
         <div class="row">
             <div class="col-md-4">
-                <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/icons/divulgacao.png" alt="">
-                <h4>Divulgação</h4>
-                <p>Mostramos o real potencial da sua instituição através da internet</p>
+
+                <div class="card-home">
+                    <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/ferramentas.svg" alt="">
+                    <h4>Ferramentas</h4>
+                    <p>Mussum Ipsum, cacilds vidis litro abertis. Vehicula non. Ut sed ex eros.</p>
+                </div>
+
+
             </div>
             <div class="col-md-4">
-                <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/icons/captacao.png" alt="">
-                <h4>Captação</h4>
-                <p>Alimentamos o interesse de novos alunos com a ajuda do marketing digital</p>
+                <div class="card-home">
+                    <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/questoes.svg" alt="">
+                    <h4>Banco de Questões</h4>
+                    <p>Mussum Ipsum, cacilds vidis litro abertis. Vehicula non. Ut sed ex eros.</p>
+                </div>
             </div>
             <div class="col-md-4">
-                <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/icons/fidelizacao.png" alt="">
-                <h4>Fidelização</h4>
-                <p>Transformamos pais de alunos em fãs agregando valor à sua instituição</p>
+                <div class="card-home">
+                    <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/materiais.svg" alt="">
+                    <h4>Materiais</h4>
+                    <p>Mussum Ipsum, cacilds vidis litro abertis. Vehicula non. Ut sed ex eros.</p>
+                </div>
             </div>
         </div>
 

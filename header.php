@@ -24,7 +24,7 @@
     <div class="container text-center">
         <nav class="navbar navbar-expand-md navbar-light">
             
-            <a class="navbar-brand" href="<?php bloginfo('home') ?>">Agência Educar</a>
+            <a class="navbar-brand" href="<?php bloginfo('home') ?>">Educar</a>
 
             <!-- <a class="navbar-brand" href="<?php bloginfo('home') ?>"><img class="logo" src="<?php bloginfo('template_url') ?>/img/logo.svg" alt=""></a> -->
             
