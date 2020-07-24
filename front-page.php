@@ -16,6 +16,9 @@
 
                     <p>Mussum Ipsum, cacilds vidis litro abertis. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. </p>
 
+
+                    <button type="button" class="btn btn-outline-light btn-lg">Começar agora</button>
+
                 </div>
             </div>
 
@@ -60,87 +63,12 @@
 </section>
 
 
-
-<section>
-    <div class="container">
-        <div class="title-section">
-            <p>Quem não é visto, não é lembrado</p>
-            <h1>Marque presença nas redes sociais</h1>
-        </div>
-
-        <img src="<?php bloginfo('template_url') ?>/img/face-educar.png" alt="">
-        
-    </div>
-</section>
-
-
-
-<section>
-    <div class="container">
-        <div class="title-section">
-            <p>O nosso trabalho nunca para</p>
-            <h1>Comunicação digital durante todo o ano</h1>
-        </div>
-
-        <div class="row">
-
-            <div class="col-md-7">
-                <img src="<?php bloginfo('template_url') ?>/img/ano-todo.png" alt="" style="float: right;">
-            </div>
-
-            <div class="col-md-5">
-                <div style="padding-top: 40px;"></div>
-                <p><i class="fas fa-check main-cl"></i> Campanhas publicitárias</p>
-                <p><i class="fas fa-check main-cl"></i> Anúncios altamente segmentados</p>
-                <p><i class="fas fa-check main-cl"></i> Captação de alunos pela internet</p>
-                <p><i class="fas fa-check main-cl"></i> Planejamentos e ações estratégicas</p>
-                <p><i class="fas fa-check main-cl"></i> Campanhas institucionais</p>
-                <p><i class="fas fa-check main-cl"></i> Atendimento digital aos pais</p>
-                <p><i class="fas fa-check main-cl"></i> ...e muito mais!</p>
-            </div>
-            
-        </div>
-        
-    </div>
-</section>
-
-
-
-<section>
-    <div class="container">
-        <div class="title-section">
-            <p>A sua escola só tem a ganhar</p>
-            <h2>Vantagens de ser Educar</h2>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/icons/equipe.png" alt="">
-                <h4 class="main-cl">Equipe especializada</h4>
-                <p>Nossos profissionais são especializados em publicidade e marketing educacional</p>
-            </div>
-            <div class="col-md-4">
-                <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/icons/atendimento.png" alt="">
-                <h4 class="main-cl">Atendimento incrível</h4>
-                <p>Estamos sempre à disposição para ouvir e tirar todas as dúvidas</p>
-            </div>
-            <div class="col-md-4">
-                <img class="icons-educar" src="<?php bloginfo('template_url') ?>/img/icons/feedback.png" alt="">
-                <h4 class="main-cl">Transparência e feedback</h4>
-                <p>Você estará ciente de cada etapa a ser executada e verá os resultados em tempo real</p>
-            </div>
-        </div>
-        
-    </div>
-</section>
-
-
          
 <section>
     <div class="container">
         <div class="title-section">
-            <p>Compartilhamos conhecimento</p>
-            <h2>Materiais Gratuitos</h2>
+            <p>Materiais Gratuitos sobre</p>
+            <h2>Tecnologias Educacionais</h2>
         </div>
 
         <div class="row">
